@@ -1,0 +1,134 @@
+<html>
+<!--Copyright 1996 Angelfire Communications-->
+<head>
+<title></title>
+</head>
+
+<body bgcolor="#ffffff" text="#000000" link="#2400ff" vlink="#ff0000">
+<script language="JavaScript">
+<!--
+
+function stopError() {
+	return true;
+}
+
+window.onerror = stopError;
+
+// -->
+</script>
+
+<script language="JavaScript">
+<!--
+var popupURL = "http://www.angelfire.com/ads/toolbar2/afpopup.html";
+var adname = "Ad";
+var cookie_name = "Popup";
+var expire = 5;
+var factor = 1;
+var popup = null;
+var view_count = 0;
+var expdate = new Date();
+
+ShowPopup();
+
+function ShowPopup() {
+	if(GetCookie(cookie_name) == null) {
+		expdate.setTime (expdate.getTime() + expire * (60 * 1000));
+		SetCookie(cookie_name, 1, expdate,'/');
+		openWin();	
+	}
+	else {
+		view_count = GetCookie(cookie_name);
+		view_count++;
+		if(view_count % factor == 0) {
+			view_count = 1;
+			openWin();
+		}
+		expdate.setTime (expdate.getTime() + expire * (60 * 1000));
+		SetCookie(cookie_name, view_count, expdate,'/');
+	}
+}
+
+function openWin () {
+	popup = window.open(popupURL,adname,'toolbar=0,location=0,directories=0,status=0,menubar=0,scrollbars=0,resizable=0,width=488,height=111');
+    if(popup != null) {
+    	popup.location = popupURL;
+        if( navigator.appName.substring(0,8) == "Netscape" ) {
+			popup.location = popupURL;
+			popup.opener = self;
+        }
+        if( navigator.appName == "Netscape" ) {
+       		popup.window.focus();
+		}
+		self.name = "main";
+	}
+}
+
+function getCookieVal (offset) {
+	var endstr = document.cookie.indexOf (";", offset);
+	if (endstr == -1) {
+		endstr = document.cookie.length;
+	}	
+	return unescape(document.cookie.substring(offset, endstr));
+}
+
+function GetCookie (name) {
+	var arg = name + "=";
+	var alen = arg.length;
+	var clen = document.cookie.length;
+	var i = 0;
+	while (i < clen) {
+		var j = i + alen;
+		if (document.cookie.substring(i, j) == arg) {
+      		return getCookieVal (j);
+		}
+    	i = document.cookie.indexOf(" ", i) + 1;
+    	if (i == 0)  {
+			break;
+  		}
+ 	} 
+	return null;
+}
+
+function SetCookie (name, value) {
+	var argv = SetCookie.arguments;
+	var argc = SetCookie.arguments.length;
+	var expires = (argc > 2) ? argv[2] : null;
+	var path = (argc > 3) ? argv[3] : null;
+	var domain = (argc > 4) ? argv[4] : null;
+	var secure = (argc > 5) ? argv[5] : false;
+	document.cookie = name + "=" + escape (value) +
+	((expires == null) ? "" : ("; expires=" + expires.toGMTString())) +
+    ((path == null) ? "" : ("; path=" + path)) +
+    ((domain == null) ? "" : ("; domain=" + domain)) +
+    ((secure == true) ? "; secure" : "");
+}
+// -->
+</script>
+
+
+<!--Header-->
+<h1 align=center></h1>
+<!--EndHeader-->
+
+<basefont size=4>
+
+<!--Freetext--><center>
+In this section of your page you erase what is written here and write 
+whatever you want...  even HTML code.
+</center>
+
+<!--EndFreetext-->
+<p>
+
+<!--Counter-->
+<center><img src="/cgi-bin/Count.cgi?df=clangdi_index.html"></center>
+<p>
+<!--EndCounter-->
+
+<!--Email-->
+<center>Email: <a href="mailto:clangdi@hotmail.com"> clangdi@hotmail.com</a></center>
+<!--EndEmail-->
+
+
+</body>
+</html>

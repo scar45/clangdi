@@ -1,0 +1,21 @@
+<html>
+<body bgcolor="000000" background="/ok/clangdi/images/back.gif" text="ffffff" link="ff0000" vlink="yellow">
+<center>
+<img src="/ok/clangdi/images/contact.jpg">
+<font size="4">
+<p>
+<hr>
+<b>By EMail:</b>
+<p>
+<a href="mailto:clangdi@hotmail.com">clangdi@hotmail.com</a>
+<p>
+<p>
+<b>By ICQ:</b>
+<p>
+Scar45: <font color="yellow">8989817</font color>
+<p>
+PhantomRun: <font color="yellow">9249257</font color>
+<p>
+<img src="/ok/clangdi/images/dildo.jpg" ALT="WHAT THE HELL IS THIS PIC DOIN' HERE?!">
+</body>
+</html>

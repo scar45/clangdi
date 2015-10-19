@@ -1,0 +1,99 @@
+<html>
+<head>
+<title>The ClanGDI Homepage </title>
+</head>
+<META NAME="keywords" CONTENT="3d, quake, clans, clan, quake clan, quake clans, 3Dfx, ra2, ctf, q2, id, games, video games,qwerty,qazwsxedcrfvtgbyhnujmikolp, pc, pc games">
+<body bgcolor="#000000" background="/ok/clangdi/images/back.gif" text="#ffffff" link="#000000" vlink="#000000" onLoad="startclock()" onunLoad="stopClock()">
+
+
+<SCRIPT LANGUAGE="LiveScript">
+<!--This script by Paul Tahan Jr-->
+<!--
+function checkAGE(){if (!confirm
+
+("Welcome to ClanGDI's website."))
+
+;return " "}
+
+document.writeln(checkAGE())
+<!--End--> 
+
+</SCRIPT>
+<h1 align=center></h1>
+<basefont size=6>
+<center>
+<img src="/ok/clangdi/images/logo.jpg" ALT="Welcome. Browse. Enjoy. Kill">
+<p>
+<img src="/ok/clangdi/images/gdi.jpg">
+<p>
+<p>
+<font size="4"><form name="frm">
+		Time Remaining until the Year2000 Computer Crash: <BR>
+		<input type="textarea" name="left" size=51 value="Please wait while loading time remaining until year2000 crash...-GDI">
+		</form>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- 
+/* This script and all others are copyright (c) 1996 by Tomer Shiran and Yehuda Shiran. They will all be posted in
+our upcoming book on JavaScript, along with many others. */
+var Temp2;
+var timerID = null;
+var timerRunning = false;
+
+function showtime() {
+
+now = new Date();
+var CurHour = now.getHours();
+var CurMinute = now.getMinutes();
+var CurMonth = now.getMonth();
+var CurDate = now.getDate();
+var CurYear = now.getYear();
+var CurSecond = now.getSeconds();
+now = null;
+Hourleft = 23 - CurHour
+Minuteleft = 59 - CurMinute
+Secondleft = 59 - CurSecond
+var Yearleft = 99 - CurYear
+var Monthleft = 11 - CurMonth
+
+var Dateleft = 31 - CurDate
+if (Yearleft!=1) {var ys="s"} else {var ys=""};
+if (Monthleft!=1) {var mos="s"} else {var mos=""}
+if (Dateleft!=1) {var ds="s"} else {var ds=""}
+if (Hourleft!=1) {var hs="s"} else {var hs=""}
+if (Minuteleft!=1) {var mis="s"} else {var mis=""}
+if (Secondleft!=1) {var ss="s"} else {var ss=""}
+
+
+Temp2='Still '+Yearleft+' year'+ys+', '+Monthleft+' month'+mos+', '+Dateleft+' day'+ds+', '+Hourleft+' hour'+hs+', '+Minuteleft+' minute'+mis+', '+Secondleft+' second'+ss+' left until the year 2000! '
+Temp3='     ' + Yearleft+' year'+ys+', '+Monthleft+' month'+mos+', '+Dateleft+' day'+ds+', '+Hourleft+' hour'+hs+', '+Minuteleft+' minute'+mis+', '+Secondleft+' second'+ss
+//window.status=Temp2;
+document.frm.left.value=Temp3;
+timerID = setTimeout("showtime()",1000);
+timerRunning = true;
+
+}
+
+var timerID = null;
+
+var timerRunning = false;
+ 
+function stopclock () {
+if(timerRunning)
+clearTimeout(timerID);
+timerRunning = false;
+
+}
+function stopClock() {
+        stopclock();    
+        return;
+}
+function startclock () {
+// Make sure the clock is stopped
+stopclock();
+showtime();
+}
+
+// -->
+</script>
+</body>
+</html>

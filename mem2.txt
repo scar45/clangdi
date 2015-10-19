@@ -1,0 +1,49 @@
+<html>
+<body bgcolor="000000" background="/ok/clangdi/images/back.gif" text="ffffff" link="ff0000" vlink="yellow">
+<font size="6">
+<b>
+<center>
+<img src="/ok/clangdi/images/members.jpg">
+<p><hr>
+<font size="4">
+<p>
+<li><a href="/ok/clangdi/phant.html">PhantomRun</a> - <font color="red">General</font color>     <img src="http://online.mirabilis.com/scripts/online.dll?icq=9249257&img=1"><p>
+<li><a href="/ok/clangdi/scar.html">Scar45</a> - <font color="red">Lieutenant General</font color>     <img src="http://online.mirabilis.com/scripts/online.dll?icq=8989817&img=1"><p>
+<li><a href="/ok/clangdi/gal.html">Galvatron</a> - <font color="red">Major</font color>     <img src="http://online.mirabilis.com/scripts/online.dll?icq=10596508&img=1"><p>
+<li><a href="/ok/clangdi/rits.html">R.I.T.S.</a> - <font color="red">Lieutenant Colonel</font color>     <img src="http://online.mirabilis.com/scripts/online.dll?icq=9154747&img=1"><p>
+<li><a href="/ok/clangdi/pes.html">Pestilence </a> - <font color="red">Colonel</font color>     <img src="http://online.mirabilis.com/scripts/online.dll?icq=8428107&img=1">
+</center>
+<p>
+<p>
+<p>
+<hr>
+<center>
+<font size="5"><b><u>
+Order of Ranking</u></b>
+</font size>
+<p>
+(in increasing order)
+<p>
+<font color="red">
+<li>Private
+<li>Private First Class
+<li>Lance Corporal
+<li>Corporal
+<li>Sergeant
+<li>Staff Sergeant
+<li>Gunnery Sergeant
+<li>Master Sergeant
+<li>First Sergeant
+<li>Master Gunnery Sergeant
+<li>Sergeant Major
+<li>Second Lieutenant
+<li>First Lieutenant
+<li>Captain
+<li>Major
+<li>Lieutenant Colonel
+<li>Colonel
+<li>Brigadier General
+<li>Major General
+<li>Lieutenant General
+<li>General
+</html>
