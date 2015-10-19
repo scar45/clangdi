@@ -1,9 +1,9 @@
 <html>
-<body bgcolor="000000" background="/ok/clangdi/images/back.gif" text="ffffff" link="ff0000" vlink="yellow">
+<body bgcolor="000000" background="back.gif" text="ffffff" link="ff0000" vlink="yellow">
 <font size="6">
 <b>
 <center>
-<img src="/ok/clangdi/images/members.jpg">
+<img src="members.jpg">
 <p><hr>
 <font size="4">
 <p>

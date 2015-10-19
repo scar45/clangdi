@@ -3,7 +3,7 @@
 <title>The ClanGDI Homepage </title>
 </head>
 <META NAME="keywords" CONTENT="3d, quake, clans, clan, quake clan, quake clans, 3Dfx, ra2, ctf, q2, id, games, video games,qwerty,qazwsxedcrfvtgbyhnujmikolp, pc, pc games">
-<body bgcolor="#000000" background="/ok/clangdi/images/back.gif" text="#ffffff" link="#000000" vlink="#000000" onLoad="startclock()" onunLoad="stopClock()">
+<body bgcolor="#000000" background="back.gif" text="#ffffff" link="#000000" vlink="#000000" onLoad="startclock()" onunLoad="stopClock()">
 
 
 <SCRIPT LANGUAGE="LiveScript">
@@ -22,9 +22,9 @@ document.writeln(checkAGE())
 <h1 align=center></h1>
 <basefont size=6>
 <center>
-<img src="/ok/clangdi/images/logo.jpg" ALT="Welcome. Browse. Enjoy. Kill">
+<img src="logo.jpg" ALT="Welcome. Browse. Enjoy. Kill">
 <p>
-<img src="/ok/clangdi/images/gdi.jpg">
+<img src="gdi.jpg">
 <p>
 <p>
 <font size="4"><form name="frm">
